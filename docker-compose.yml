@@ -8,8 +8,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - '.:/candigv2_dashboard'
-      - '/candigv2_dashboard/node_modules'
+      - '.:/candig-server-beta-dashboard'
+      - '/candig-server-beta-dashboard/node_modules'
     ports:
       - 3001:3000
     environment:

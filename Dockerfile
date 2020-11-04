@@ -2,10 +2,10 @@
 FROM node:13.12.0-alpine
 
 # set working directory
-WORKDIR /candigv2_dashboard
+WORKDIR /candig-server-beta-dashboard
 
 # add `/app/node_modules/.bin` to $PATH
-ENV PATH /candigv2_dashboard/node_modules/.bin:$PATH
+ENV PATH /candig-server-beta-dashboard/node_modules/.bin:$PATH
 
 # install app dependencies
 COPY package.json ./
